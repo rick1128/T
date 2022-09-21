@@ -19,7 +19,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>مرحبا صديقي انا بوت تلجراف ميديا 
 
-👻 هذا هو بوت استخراج رابط تلجراف ميديا الخاص في سورس ريبثون اختر ماتريد من الاسفل 
+👻 هذا هو بوت استخراج رابط تلجراف ميديا الخاص في سورس ريك ثون اختر ماتريد من الاسفل 
 👇 تسطيع استخراج 👇
 
 📽️ فيديوهات قصيره (ان لايتعدا حجمه 5MB).
@@ -32,19 +32,19 @@ async def start(client, message):
 👥 مجموعة الدعم.
 🚀 الاستخراج السريع .
 
-✍️هذا هو بوت استخراج رابط تلجراف ميديا الخاص ب سورس ريبثون 
+✍️هذا هو بوت استخراج رابط تلجراف ميديا الخاص ب سورس ريك ثون 
 ارسل لي اي شئ تريده لاجعله رابط ්😝
 
-هل تحتاج لل المساعدة راسل المطور @ZQ_LO</b>""",   
+هل تحتاج لـ المساعدة راسل المطور @X7_CM</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "🌷Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "✨قناتنا", url="https://t.me/Repthon"),
+                                            "✨قناتنا", url="https://t.me/Rickthon"),
                                          InlineKeyboardButton(
 
-                                            "قناتنا على اليوتيوب", url="https://youtube.com/channel/UCS2l9rZy_hRThF9-1MKOszQ")
+                                            "قناتنا على اليوتيوب", url="https://youtube.com/channel/UC6p3aZUHsAA7tQLjMEEYXkA")
                                     ]]
                             ),
             disable_web_page_preview=True,        
@@ -59,9 +59,9 @@ async def help(client, message):
 
 فقط ارسل صوره او فيديو قصير او متحركه وسوف احوله الى رابط تلجراف .🎉
 
-☘️ المبرمج : @ZQ_LO
+☘️ المبرمج : @x7_cm
 
-@Repthon</b>""",
+@Rickthon</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -80,7 +80,7 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>حول هذا البوت!</b>
 
-<b>☘️ المبرمج :</b> <a href="https://t.me/ZQ_LO">FORM Iraq🇮🇶</a>
+<b>☘️ المبرمج :</b> <a href="https://t.me/x7_cm">FORM Iraq🇮🇶</a>
 
 <b>🔆اللغة:</b> <a href="https://www.python.org/">Python 3</a>
 
@@ -108,7 +108,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("ارسل صوره حجمها اقل من 5mb!") 
     else:
-        await msg.edit_text(f'**تم استخراج رابط تلجراف ميديا بنجاح!\n\n👻https://telegra.ph{response[0]}\n\nJoin  @Repthon**',
+        await msg.edit_text(f'**تم استخراج رابط تلجراف ميديا بنجاح!\n\n👻https://telegra.ph{response[0]}\n\nJoin  @Rickthon**',
             disable_web_page_preview=False,
         )
     finally:
@@ -140,7 +140,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("Gif size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**تم استخراج رابط تلجراف ميديا بنجاح!\n\n👻https://telegra.ph{response[0]}\n\nJoin @Repthon**',
+        await msg.edit_text(f'**تم استخراج رابط تلجراف ميديا بنجاح!\n\n👻https://telegra.ph{response[0]}\n\nJoin @Rickthon**',
             disable_web_page_preview=False,
         )
     finally:
@@ -162,7 +162,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Repthon
+Join @Rickthon
 """
 )
 
