@@ -86,7 +86,7 @@ async def about(client, message):
 
 <b>♻️اصدار بايروجرام 1.4.16:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>@Repthon</b>""",
+<b>@Rickthon</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
